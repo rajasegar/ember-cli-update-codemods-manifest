@@ -113,5 +113,12 @@
     },
     "nodeVersionRange": ">=8",
     "commands": ["github:ember-codemods/ember-data-codemod globals-to-ember-data-imports app/**/*.js"]
+  },
+  "ember-tracked-properties-codemod": {
+    "versionRanges": {
+      "ember-data": ">=3.13.0-beta.1"
+    },
+    "nodeVersionRange": ">=8",
+    "commands": ["github:ember-codemods/ember-tracked-properties-codemod app/**/*.js"]
   }
 }
